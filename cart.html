@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- Fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootsrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+     <!-- Header Container -->
+     <div id="header" style="width: 100%;"></div>
+    
+<!-- container fluid -->
+    <section class="container-fluid bg-white">
+        <div class="container m-auto d-flex justify-content-center align-items-center flex-column">
+            <div class="row mb-3 d-flex justify-content-center align-items-center w-100">
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="card my-4">
+                        <h2 class="text-center bg-light w-100">Items in Cart</h2>
+                        <div class="row m-2">
+                           <div class="col-sm-12 col-md-12 col-lg-4">
+                            <div class="d-flex justify-content-center align-items-start mb-2">
+
+                                <!-- img of superman dress -->
+                                <img class="superman-dress" src="https://tse4.mm.bing.net/th?id=OIP.SQ6YMuGV-Yg1fJ5Bopt_WQHaKl&pid=Api&P=0&h=180" alt="superman-dress" class="img-fluid rounded">
+                            </div>
+                           </div>
+                           <div class="col-sm-12 col-md-12 col-lg-4">
+                           <div class="d-flex justify-content-between justify-content-sm-between justify-content-md-between justify-content-lg-center  align-items-center flex-sm-row flex-md-row flex-lg-column my-3">
+                            <p class="fw-bold">Superman dress</p>
+                            <p>$15</p>
+
+                            <!-- add to cart button -->
+                            <button class="btn  cart-btn"><i class="fa-solid fa-trash-can p-3 cart-btn"></i></button>
+                           </div>
+                           </div>
+                           <div class="col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="d-flex justify-content-center align-items-start">
+                                <button class="btn cart-btn"><i class="fa-solid fa-minus p-1 cart-btn"></i></button>
+                            <input type="text" class="form-control">
+                            <button class="btn "><i class="fa-solid fa-plus p-1 cart-btn"></i></button>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="card my-4">
+                        <h2 class="text-center bg-light w-100">Summary</h2>
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                                <div class="d-flex justify-content-between align-items-center w-100 pt-3 px-4">
+                                <p>cost</p>
+                                <p>$15</p> 
+                                </div>     
+                                <div class="d-flex justify-content-between align-items-center w-100 px-4">
+                                <p>Shipping</p>
+                                <p>$5</p> 
+                                </div>     
+                                <div class="d-flex justify-content-between align-items-center w-100 px-4 border-top border-secondary pt-2">
+                                <p class="fw-bold">Total</p>
+                                <p class="fw-bold">$20</p> 
+                                </div>  
+                                <!-- checkout button -->
+                           <div class="Checkout-btn"> <button class="btn fw-bold mt-1 mb-3  ">Checkout</button>  </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+     <!-- -----------------------------------------------------------------Footer------------------------------------------------------------ -->
+    <div id="footer" style="width: 100%;"></div>
+
+ <!-- *****************************************************Bootstrap JS and jQuery************************************************************ -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+<script src="index.js" defer></script>
+</body>
+</html>

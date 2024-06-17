@@ -1,0 +1,106 @@
+/* Resetting margin and padding for the container */
+.container-fluid {
+    margin: 0px;
+    padding-left: 0;
+
+}
+/* Styling for the product box background */
+.product-box {
+    background-color: #dfdede;
+    margin-bottom: 10px;
+
+}
+
+/* Styling for the product image inside the card */
+.card>img {
+    height: 15rem;
+
+}
+
+/* Styling for the button inside the card */
+.card>button {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(211, 211, 22);
+    border: 2px solid rgb(211, 211, 22);
+    border-radius: 5px;
+    font-weight: bold;
+
+
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+
+
+.card-title {
+    margin-top: 0px;
+
+}
+
+
+
+/* Center-align text for h3 and p elements */
+h3,
+p {
+    text-align: center;
+}
+
+.bg-heading {
+    background-color: rgb(181, 213, 232);
+    color: rgb(8, 8, 8);
+
+}
+
+/* Media query for screens up to 300px width */
+@media(max-width:300px) {
+    .card>button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .card {
+        font-size: 10px;
+    }
+
+}
+
+/* Media query for screens between 300px and 600px width */
+@media(min-width:300px) and (max-width:600px) {
+    .card>button {
+        width: 135px;
+
+    }
+}
+
+@media( min-width:600px) and (max-width:1024px){
+    .card>button{
+        font-size: 3rem;
+    }
+}
+
+/* Media query for screens up to 1024px width */
+@media(max-width:1024px) {
+    .card>button {
+        width: 140px;
+        font-size: 35px;
+
+    }
+    
+}
+
+/* Media query for screens up to 1280px width */
+@media(max-width:1280px) {
+    .card>button {
+        width: 100px;
+        font-size: 10px;
+
+    }
+}

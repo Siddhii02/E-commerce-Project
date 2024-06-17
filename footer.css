@@ -1,0 +1,36 @@
+/* Styling for footer links */
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* Styling for horizontal line, h3, and h5 elements */
+hr,
+h3,
+h5 {
+  color: white;
+
+}
+
+@media (max-width: 1024px) {
+
+  /* Apply styles for screens up to 767px wide */
+  .r {
+    flex-direction: column;
+    /* the flex direction to column for stacking */
+    text-align: center;
+    /* Center align text within columns */
+  }
+
+  .col {
+    margin-bottom: 15px;
+    /* Add spacing between stacked columns */
+  }
+
+  .align-self-start {
+    align-self: stretch;
+    /* Stretch the "Kids" column to fill the height */
+  }
+}

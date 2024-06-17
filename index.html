@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+    <!-- Add the Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="header"></div>
+  <!-- hero section start -->
+  <div class="container-fluid d-flex justify-content-center align-items-center flex-column  bg-img  bg-container"> <img
+      class="hero-section-logo" src="Images/Ecomm.logo.png" alt="logo">
+    <p class="text-center fw-bold">Clothes that talk on behalf you.Something for every occasion.</p>
+  </div>
+  <!-- hero section end -->
+
+  <!-- slider start -->
+
+  <!-- carousel start-->
+  <div class="container-fluid p-5    feature-product  ">
+    <h1 class="text-center fs-1">Featured Products</h1>
+    <div class="container mt-5">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Slide 1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+          <div class="carousel-item active  ">
+            <!-- ================================For small devices============================================== -->
+            <div class="d-flex d-sm-flex d-md-none justify-content-center align-items-center d-lg-none ">
+              <div class="card" style="width: 18rem;">
+                <img src="Images/2_mini_dress.webp" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column ">
+                  <h5 class="card-title">Mini Dress</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn "><i class="cart fa fa-shopping-cart cart-btn "></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- ================================For medium devices============================================= -->
+            <div class="d-none d-md-flex d-lg-none justify-content-center align-items-center ">
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/7_Halter-Neck.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Hlater Neck</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/9_Sheath-dress-1.webp" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Sheath Dress</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- ========================================For larger devices======================================================= -->
+            <div class="d-none d-md-none d-lg-flex justify-content-center align-items-center">
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ws1.pleated-skirt.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Pleated Skirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/k5.red frock.jpeg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Red Frock</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/k8.greenfrock.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Green Dress</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/13_Smock-Dress-1.webp" class="card-img-top" alt="men" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Smock Dress</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ms2.oxford-shirt.jpg" class="card-img-top" alt="men" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Oxford Shirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- --------------------------------------------------------------- Slide 2-------------------------------------------------------------------- -->
+          <div class="carousel-item">
+            <!-- ====================================================For small devices========================================================= -->
+            <div class="d-flex d-sm-flex d-md-none justify-content-center align-items-center d-lg-none">
+              <div class="card" style="width: 18rem;">
+                <img src="Images/4.-Pegged-Pants.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Pegged Pants</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- ==================================================For medium devices===================================================== -->
+            <div class="d-none d-md-flex d-lg-none justify-content-center align-items-center">
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/15.-Dungree.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Dungree</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/k5.red frock.jpeg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Red Frock</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- ========================================For larger devices================================================================ -->
+            <div class="d-none d-md-none d-lg-flex justify-content-center align-items-center">
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ms15.Overshirt-HM.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Over Shirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ws5.gathered-skirt.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Gathered Skirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ws11.tulip-skirt.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Tulip Skirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ws15.pencil-skirt-tube-skirt-narrow-skirt.jpg" class="card-img-top" alt="men"
+                  style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Pencil Skirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/mp1.cargo_pants.jpg" class="card-img-top" alt="men" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Cargo Pants</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ------------------------------------------Slide 3--------------------------------------------- -->
+          <div class="carousel-item">
+            <!-- ==================================================For small devices================================================== -->
+            <div class="d-flex d-sm-flex d-md-none justify-content-center align-items-center d-lg-none">
+              <div class="card" style="width: 18rem;">
+                <img src="Images/9.-Baggy-Pants.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Baggy Pants</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- =================================================For medium devices===================================================== -->
+            <div class="d-none d-md-flex d-lg-none justify-content-center align-items-center">
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/12_Shirt-Dress.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Shirt Dress</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/14_Strapless-Dress.webp" class="card-img-top" alt="men" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Strapless Dress</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- ===========================================================For larger devices======================================================== -->
+            <div class="d-none d-md-none d-lg-flex justify-content-center align-items-center">
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/mp9.suitpants.jpg" class="card-img-top" alt="women" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Suit Pants</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/mp13.chaps.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Chap Pants</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ms12.-Baseball-Tee.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">T-shirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ms7.Shirts-Men-Flannel.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Shirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+              <div class="card m-2" style="width: 18rem;">
+                <img src="Images/ws3.box-pleated-skirt.jpg" class="card-img-top" alt="kids" style="height: 15rem;">
+                <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Skirt</h5>
+                  <h5 class="card-title">$15</h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <a class="carousel-btn" href="#" class="btn"><i class="cart fa fa-shopping-cart cart-btn"></i><span
+                      class="btn-text fw-bold">Add To Cart</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@ Navigation Arrows @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+  <!-- --------------------------------------------------------------carousel end------------------------------------------------------- -->
+
+  <!-- slider end -->
+  <div id="footer" class="border border-success"></div>
+  <!-- bootstrap and js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+     ></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+/* marging and padding */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* styling form control */
+.form-control {
+    height: 40px;
+}
+
+/* styling search button */
+.button-search {
+    background-color: rgb(211, 211, 22);
+    border: 1px solid rgb(211, 211, 22);
+    color: black;
+    position: relative;
+    margin-left: -11px;
+    padding: 6px;
+    height: 40px;
+    width: 100px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+/* styling carosel button */
+.carousel-btn {
+    background-color: rgb(211, 211, 22);
+    color: black;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    width: 150px;
+    text-align: center;
+
+}
+
+
+/* styling navbar */
+.navbar-nav {
+    left: 600px;
+}
+
+/* styling logo */
+.logo-img {
+    width: 300px;
+    height: 60px;
+}
+
+/* styling logo button */
+.login-button {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(211, 211, 22);
+    border: rgb(211, 211, 22);
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+/* styling cart logo */
+.cart-logo {
+    color: rgb(211, 211, 22);
+    font-size: 30px;
+
+}
+
+/* styling search container */
+.search-container {
+    left: 210px;
+
+    width: 450px;
+
+}
+
+/* stling hero section */
+.hero-section-logo {
+    width: 500px;
+}
+
+
+/* stling backgrounf image */
+.bg-img {
+    background-image: url("https://media.istockphoto.com/id/1249414402/photo/businessman-on-blurred-background-using-digital-shopping-icons-with-connections-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=x1CEGzPC-CNV0F5QHiRKTAcQSdShLcgZCYoAqIsxNZQ=");
+    content: " ";
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-container {
+    height: 300px;
+
+}
+
+/* styling feature product */
+.feature-product {
+    background-color: rgb(240, 234, 234);
+    margin-top: 16px;
+}
+
+
+
+
+/* styling submit button of contact us */
+.contact-submit-button {
+    background-color: rgb(211, 211, 22);
+}
+
+
+/* styling login button in login form */
+.login-form-button {
+    background-color: rgb(211, 211, 22);
+}
+
+
+/* styling add to cart button in cart */
+.cart-btn {
+    background-color: rgb(211, 211, 22);
+    border-radius: 4px;
+}
+
+
+/* stylink checkout button of  cart */
+.Checkout-btn {
+    background: rgb(211, 211, 22);
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* styling img in add to cart(superman img) */
+.superman-dress {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+
+/* madia query for max width 300px */
+@media(max-width:300px) {
+    .navbar-nav {
+        left: 0;
+    }
+
+    .d-flex {
+        left: 0;
+    }
+
+    .form-control {
+        width: 100px;
+    }
+
+    .hero-section-logo {
+        width: 250px;
+    }
+
+    .logo-img {
+        width: 150px;
+    }
+
+    .search-container {
+        width: 250px;
+    }
+}
+
+/* max width for min width600 and max width 600px */
+@media(min-width:300px) and (max-width:600px) {
+    .navbar-nav {
+        left: 0;
+    }
+
+    .d-flex {
+        left: 0;
+
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .hero-section-logo {
+        width: 250px;
+    }
+
+    .logo-img {
+        width: 150px;
+    }
+
+    .search-container {
+        width: 250px;
+    }
+
+}
+
+/* media query for min width 600px and max width 992  */
+@media(min-width:600px) and (max-width:992px) {
+    .navbar-nav {
+        left: 0;
+    }
+
+    .d-flex {
+        left: 0;
+    }
+
+    .search-container {
+        width: 250px;
+    }
+    
+
+}
+
+/* media query for min width 992 and max width 1280 */
+@media(min-width:992px) and (max-width:1280px) {
+    .navbar-nav {
+        left: 250px;
+    }
+
+    .search-container {
+        left: 150px;
+        width: 300px;
+
+    }
+
+}
+
+/* media query for min width 1280 and max width 1500 px */
+@media(min-width:1280px) and (max-width:1500px) {
+    .navbar-nav {
+        left: 450px;
+    }
+
+    .search-container {
+        left: 200px;
+        width: 350px;
+
+    }
+
+
+}
